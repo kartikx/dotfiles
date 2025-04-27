@@ -1,0 +1,30 @@
+# font settings
+font-family = "Iosevka"
+font-family-bold = "Iosevka Bold"
+font-family-italic = "Iosevka Italic"
+font-family-bold-italic = "Iosevka Bold Italic"
+
+font-size = 24
+
+# theme
+theme = "iceberg-light"
+
+# appearance
+mouse-hide-while-typing
+title = ""
+macos-titlebar-style = "hidden"
+cursor-invert-fg-bg = true  
+
+#keybinds
+keybind = "ctrl+a>enter=toggle_quick_terminal"
+
+# tmux+vim style split and navigation
+keybind = "ctrl+a>shift+'=new_split:right"
+keybind = "ctrl+a>shift+5=new_split:down"
+keybind = "ctrl+a>h=goto_split:left"
+keybind = "ctrl+a>j=goto_split:bottom"
+keybind = "ctrl+a>k=goto_split:top"
+keybind = "ctrl+a>l=goto_split:right"
+
+keybind = "ctrl+a>r=reload_config"
+
