@@ -7,7 +7,9 @@ font-family-bold-italic = "Iosevka Bold Italic"
 font-size = 24
 
 # theme
-theme = "iceberg-light"
+# light themes i like, ["clrs", "dayfox", "iceberg-light", "farmhouse-light"]
+# dark themes i like, ["duskfox"]
+theme = "clrs"
 
 # appearance
 mouse-hide-while-typing

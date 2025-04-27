@@ -6,6 +6,7 @@ call plug#begin()
     "Color-schemes
     Plug 'morhetz/gruvbox'
     Plug 'joshdick/onedark.vim'
+    Plug 'EdenEast/nightfox.nvim'
 call plug#end()
 
 filetype indent on
@@ -31,7 +32,7 @@ set updatetime=300
 
 " appearance
 set background=light
-colorscheme iceberg 
+colorscheme dayfox 
 hi Normal ctermbg=None
 
 " keybinds

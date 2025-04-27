@@ -1,4 +1,3 @@
-# do i need this?
 # enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -109,7 +108,6 @@ fcp() {
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 
-
 # vim mode in shell
 function zle-keymap-select {
   if [[ ${KEYMAP} == vicmd ]] ||
@@ -130,7 +128,3 @@ zle-line-init() {
 zle -N zle-line-init
 echo -ne '\e[5 q' # Use beam shape cursor on startup.
 preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
-
-# must be at the end
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
